@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+}
+
+#hero-section {
+    display: inline-flex;
+    padding: 51px 84px 48px 212px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 80px;
+}
+
+.hero{
+    display: inline-flex;
+    padding: 51px 84px 48px 212px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 80px;
+}
+
+h1 {
+     /*Typograph*/
+    color: #000;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 111px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    /*Layout*/
+    width: 456px;
+    height: 106px;
+    flex-shrink: 0;
+}
+
+h2 {
+    /*Typograph*/
+    color: #000;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h1, h2 {
+    margin-bottom: 30px; 
+}
+
+.h1 {
+    
+    /*Typograph*/
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+        
+    /*Layout*/
+    width: 443px;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+.h2 {
+
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    /*Layout*/
+    width: 443px;
+    height: 169px;
+    flex-shrink: 0;
+}
+
+.hero-button{
+    border: none;
+}
+
+.hero-button::after{
+    border: none;
+}
+
+.hero-button:active{
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    
+    /*Typograph*/
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 35px;
+    border-style: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0; 
+    background: #3EB25E;
+
+    /*Layout*/
+    width: 199px;
+    height: 35.554px;
+    flex-shrink: 0;
+    transition: 1s;
+    margin: 66px 133px 0 141px;
+}
+
+a:hover {
+    content: "Just go ahead";
+    text-decoration: none;
+    color: #000;
+    border-radius: 35px;
+    background: #FFFF7D;
+}
