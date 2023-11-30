@@ -4,6 +4,11 @@
     background: #FFF;
 }
 
+/*Ajustar estilização de fontes e afins*/
+html {
+    font-family: "Roboto";
+}
+
 #hero-section {
     display: inline-flex;
     padding: 51px 84px 48px 212px;
@@ -33,7 +38,6 @@ h1 {
     /*Layout*/
     width: 456px;
     height: 106px;
-    flex-shrink: 0;
 }
 
 h2 {
@@ -66,7 +70,6 @@ h1, h2 {
     /*Layout*/
     width: 443px;
     height: 200px;
-    flex-shrink: 0;
 }
 
 .h2 {
@@ -82,7 +85,6 @@ h1, h2 {
     /*Layout*/
     width: 443px;
     height: 169px;
-    flex-shrink: 0;
 }
 
 .hero-button{
@@ -114,13 +116,11 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0; 
     background: #3EB25E;
 
     /*Layout*/
     width: 199px;
     height: 35.554px;
-    flex-shrink: 0;
     transition: 1s;
     margin: 66px 133px 0 141px;
 }

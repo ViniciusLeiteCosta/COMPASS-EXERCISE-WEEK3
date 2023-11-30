@@ -11,6 +11,7 @@
     align-items: center;
 }
 
+
 .hero {
     display: inline-flex;
     padding: 51px 84px 48px 212px;
@@ -19,60 +20,67 @@
     gap: 80px;
 }
 
+h2 {
+    /*Typograph*/
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    width: 470px;
+    height: 40px;
+    margin-bottom: 30px;
+
+}
+
+.h2-style{
+    padding-top: 100px;  
+    padding-right: 82px;  
+}
+
+.hero-button-skip {
+    border-radius: 35px;
+    background: #3EB25E;
+    
+    border: none;
+    width: 418px;
+    height: 36px;
+}
+
+.checkboxes {
+
+    width: 25px;
+    height: 25px;
+}
+
+.button-1, .button-2, .button-3{
+    border: none;
+    margin-top: 10px;
+}
+
+.skip-button-style {
+    width: 418px;
+    height: 36px;
+}
+
+.button-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 0px 2px;
+}
+
 .buttons{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-left: -100px;
 }
-
-h1 {
-    /*Typograph*/
-    color: #000;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 39px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-
-    /*Layout*/
-    width: 473px;
-    height: 101px;
-}
-
-h2 {
-    /*Typograph*/
-    color: #000;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-
-    width: 443px;
-    height: 169px;
-}
-
-h1,
-h2 {
-    margin-bottom: 30px;
-}
-
-.hero-button { 
-    border: none;
-}
-
-.hero-button::after {
-    border: none;
-}
-
-.hero-button:active {
-    border: none;
-}
-
-
 
 a {
     text-decoration: none;
@@ -98,13 +106,34 @@ a {
     height: 35.554px;
     transition: 1s;
     margin: 10px;
-
 }
 
 a:hover {
-    content: "Just go ahead";
     text-decoration: none;
     color: #000;
     border-radius: 35px;
     background: #FFFF7D;
+}
+
+.form-options {
+
+    width: 324px;
+    height: 211px;
+
+    color: #000;
+    font-family: "Roboto";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; /* 161.538% */
+}
+
+.textarea {
+    resize: none;
+    width: 459px;
+    height: 225px;
+    margin-top: 30px;
+
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
 }

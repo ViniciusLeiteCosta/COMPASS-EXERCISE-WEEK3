@@ -11,6 +11,18 @@
     align-items: center;
 }
 
+#account-options {
+    width: 459px;
+    height: 52px;
+
+    border: none;
+}
+
+.custom-border {
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
 .hero {
     display: inline-flex;
     padding: 51px 84px 48px 212px;
@@ -19,60 +31,61 @@
     gap: 80px;
 }
 
-.buttons{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
+h2 {
+    width: 125px;
+    height: 40px;
 
-h1 {
-    /*Typograph*/
     color: #000;
-    text-align: center;
     font-family: Roboto;
-    font-size: 39px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-
-    /*Layout*/
-    width: 473px;
-    height: 101px;
 }
 
-h2 {
-    /*Typograph*/
-    color: #000;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-
-    width: 443px;
-    height: 169px;
+.skip-button-style {
+    width: 418px;
+    height: 36px;
+    margin: 28px 0 0 0;
 }
 
 h1,
 h2 {
-    margin-bottom: 30px;
+    margin-top: 10px;
 }
 
-.hero-button { 
+input {
+    width: 459px;
+    height: 52px;
+
+    color: rgba(0, 0, 0, 0.25);
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.button-1,
+.button-2,
+.button-3 {
     border: none;
 }
 
-.hero-button::after {
-    border: none;
+.button-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.hero-button:active {
-    border: none;
+.age_form{
+    width: 152px;
+    height: 52px;
 }
-
-
 
 a {
     text-decoration: none;
@@ -93,18 +106,26 @@ a {
     justify-content: center;
     background: #3EB25E;
 
-    /*Layout*/
-    width: 199px;
-    height: 35.554px;
-    transition: 1s;
-    margin: 10px;
+     /*Layout*/
+     width: 199px;
+     height: 35.554px;
+     transition: 1s;
+     margin: 48px 1px 0 0px;
+ 
 
 }
 
 a:hover {
-    content: "Just go ahead";
     text-decoration: none;
     color: #000;
     border-radius: 35px;
     background: #FFFF7D;
+}
+
+
+.textarea-style {
+    width: 459px;
+    height: 225px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
 }
