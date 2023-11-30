@@ -4,6 +4,10 @@
     background: #FFF;
 }
 
+html {
+    font-family: 'Roboto';
+}
+
 #hero-section {
     display: inline-flex;
     padding: 51px 84px 48px 212px;
@@ -14,6 +18,10 @@
 #account-options {
     height: 52px;
     border: none;
+}
+
+.container {
+    padding-left: 105.29px;
 }
 
 .custom-border {
@@ -48,9 +56,7 @@ h2 {
     font-weight: 700;
     line-height: normal;
 
-    width: 470px;
-    height: 40px;
-    flex-shrink: 0;
+ 
 }
 
 .arrow {
@@ -66,41 +72,52 @@ h2 {
 .hero-button-skip {
     border-radius: 35px;
     background: #3EB25E;
-    
+
     border: none;
     width: 418px;
     height: 36px;
 }
 
-.checkbox{
-    padding-right: 11px;
-    margin-bottom: 36px;
+.container {
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
 }
 
-select {
-    padding-right: 100px;
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
 }
 
-.checkbox-circle {
-    z-index: 1;
-}
-
-.checkboxes {
-    width: 25px;
+.checkmark {
+    position: absolute;
+    top: 5px;
+    left: 0;
     height: 25px;
+    width: 25px;
+    background-color: #3eb05c4b;
+    border-radius: 50%;
 }
 
-.buttons{
+.container input:checked~.checkmark {
+    background-color: #3EB25E;
+}
+
+.buttons {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-left: 100px;
 }
 
-.button-1, .button-2, .button-3{
+.button-1,
+.button-2,
+.button-3 {
     border: none;
-    margin-top: 10px;
 }
 
 .skip-button-style {
@@ -113,7 +130,7 @@ select {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 0px 0px 0px -9px;
+    padding-left: 10px;
 }
 
 a {
@@ -150,15 +167,11 @@ a:hover {
 }
 
 .form-options {
-
-    width: 324px;
-    height: 211px;
-
     color: #000;
     font-family: "Roboto";
     font-size: 26px;
     font-style: normal;
     font-weight: 400;
-    line-height: 42px; 
+    line-height: 42px;
 
 }
