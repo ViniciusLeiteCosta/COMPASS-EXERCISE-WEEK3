@@ -11,17 +11,9 @@
     align-items: center;
 }
 
-#account-options {
-    width: 459px;
-    height: 52px;
-
-    border: none;
-}
-
-.custom-border {
-    margin-bottom: 30px;
-    border-radius: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
+.hero-messages {
+    padding-top: 100px;
+    padding-left: 102.29px;
 }
 
 .hero {
@@ -35,8 +27,7 @@
 h2 {
     /*Typograph*/
     color: #000;
-    text-align: center;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
@@ -44,38 +35,18 @@ h2 {
 
     width: 470px;
     height: 40px;
+    margin-bottom: 30px;
+
 }
 
-
-.first-h2 {
-    margin-left: -70px;
+.h2-style{
+    padding-top: 100px;  
+    padding-right: 82px;  
 }
 
-.hero-button-skip {
-    border-radius: 35px;
-    background: #3EB25E;
-    
-    border: none;
-    width: 418px;
-    height: 36px;
-}
-
-.checkbox {
-    margin-top: 45px;
-}
 .checkboxes {
-    
     width: 25px;
     height: 25px;
-}
-
-.buttons{
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-left: 100px;
 }
 
 .button-1, .button-2, .button-3{
@@ -84,16 +55,17 @@ h2 {
 }
 
 .skip-button-style {
+    margin-top: -3px;
+    margin-left: 25px;
     width: 418px;
     height: 36px;
 }
 
-.button-3 {
+.buttons{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 0px 0px 0px -9px;
 }
 
 a {
@@ -120,7 +92,6 @@ a {
     height: 35.554px;
     transition: 1s;
     margin: 10px;
-
 }
 
 a:hover {
@@ -131,14 +102,22 @@ a:hover {
 }
 
 .form-options {
-
-    width: 324px;
-    height: 211px;
-
     color: #000;
     font-family: "Roboto";
     font-size: 26px;
     font-style: normal;
     font-weight: 400;
-    line-height: 42px; /* 161.538% */
+    line-height: 42px; 
+}
+
+.textarea {
+    text-align:start;
+
+    resize: none;
+    width: 459px;
+    height: 225px;
+    margin-top: 30px;
+
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
 }

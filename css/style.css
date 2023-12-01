@@ -4,14 +4,12 @@
     background: #FFF;
 }
 
-#hero-section {
-    display: inline-flex;
-    padding: 51px 84px 48px 212px;
-    justify-content: flex-end;
-    align-items: center;
+/*Ajustar estilização de fontes e afins*/
+html {
+    font-family: "Roboto";
 }
 
-.hero {
+#hero-section {
     display: inline-flex;
     padding: 51px 84px 48px 212px;
     justify-content: flex-end;
@@ -19,14 +17,46 @@
     gap: 80px;
 }
 
-.buttons{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.hero{
+    display: inline-flex;
+    padding: 51px 84px 48px 212px;
+    justify-content: flex-end;
     align-items: center;
+    gap: 80px;
 }
 
 h1 {
+     /*Typograph*/
+    color: #000;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 111px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    /*Layout*/
+    width: 456px;
+    height: 106px;
+}
+
+h2 {
+    /*Typograph*/
+    color: #000;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h1, h2 {
+    margin-bottom: 30px; 
+}
+
+.h1 {
+    
     /*Typograph*/
     color: #000;
     text-align: center;
@@ -36,13 +66,14 @@ h1 {
     font-weight: 700;
     line-height: normal;
 
+        
     /*Layout*/
-    width: 473px;
-    height: 101px;
+    width: 443px;
+    height: 200px;
 }
 
-h2 {
-    /*Typograph*/
+.h2 {
+
     color: #000;
     text-align: center;
     font-family: Roboto;
@@ -50,33 +81,39 @@ h2 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
+    
+    /*Layout*/
     width: 443px;
     height: 169px;
 }
 
-h1,
-h2 {
-    margin-bottom: 30px;
+button {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: transparent;
 }
 
-.hero-button { 
+.hero-button {
+    cursor: pointer;
+    color: #FFF;
     border: none;
 }
 
 .hero-button::after {
-    border: none;
+    cursor: pointer;
 }
 
-.hero-button:active {
-    border: none;
+.hero-button button:hover {
+    color: #000;
 }
-
-
 
 a {
     text-decoration: none;
-
+    
     /*Typograph*/
     color: #FFF;
     text-align: center;
@@ -97,8 +134,7 @@ a {
     width: 199px;
     height: 35.554px;
     transition: 1s;
-    margin: 10px;
-
+    margin: 66px 133px 0 141px;
 }
 
 a:hover {

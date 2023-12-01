@@ -4,23 +4,15 @@
     background: #FFF;
 }
 
+html {
+    font-family: 'Roboto';
+}
+
 #hero-section {
     display: inline-flex;
     padding: 51px 84px 48px 212px;
     justify-content: flex-end;
     align-items: center;
-}
-
-#account-options {
-    width: 459px;
-    height: 52px;
-
-    border: none;
-}
-
-.custom-border {
-    border-radius: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
 }
 
 .hero {
@@ -31,61 +23,66 @@
     gap: 80px;
 }
 
-h2 {
-    width: 125px;
-    height: 40px;
+.hero-messages {
+    padding-left: 104.9px;
+}
 
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 64px;
+}
+
+h1 {
+    /*Typograph*/
     color: #000;
+    text-align: center;
     font-family: Roboto;
-    font-size: 26px;
+    font-size: 39px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
+    /*Layout*/
+    width: 473px;
+    height: 101px;
 }
 
-.skip-button-style {
-    width: 418px;
-    height: 36px;
-    margin: 28px 0 0 0;
-}
-
-h1,
 h2 {
-    margin-top: 10px;
-}
-
-input {
-    width: 459px;
-    height: 52px;
-
-    color: rgba(0, 0, 0, 0.25);
+    /*Typograph*/
+    color: #000;
     text-align: center;
-    font-family: "Roboto";
-    font-size: 27px;
+    font-family: Roboto;
+    font-size: 28px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 
-    border-radius: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
+    width: 443px;
+    height: 169px;
 }
 
-.button-1,
-.button-2,
-.button-3 {
+h1,
+h2 {
+    margin-bottom: 30px;
+}
+
+.hero-button { 
     border: none;
 }
 
-.button-3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.hero-button::after {
+    border: none;
 }
 
-.age_form{
-    width: 152px;
-    height: 52px;
+.hero-button:active {
+    border: none;
 }
+
+
 
 a {
     text-decoration: none;
@@ -106,26 +103,18 @@ a {
     justify-content: center;
     background: #3EB25E;
 
-     /*Layout*/
-     width: 199px;
-     height: 35.554px;
-     transition: 1s;
-     margin: 48px 1px 0 0px;
- 
+    /*Layout*/
+    width: 199px;
+    height: 35.554px;
+    transition: 1s;
+    margin: 10px;
 
 }
 
 a:hover {
+    content: "Just go ahead";
     text-decoration: none;
     color: #000;
     border-radius: 35px;
     background: #FFFF7D;
-}
-
-
-.textarea-style {
-    width: 459px;
-    height: 225px;
-    border-radius: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
 }
