@@ -111,6 +111,7 @@ select{
 }
 
 .buttons {
+    padding-top: 32px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -175,5 +176,4 @@ a:hover {
     font-size: 26px;
     font-style: normal;
     font-weight: 400;
-    line-height: 42px;
 }
