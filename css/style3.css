@@ -92,8 +92,7 @@ h2 {
 }
 
 select{
-    padding-left: 10px;
-    appearance: unset;
+    outline: none;
 }
 
 .checkmark {

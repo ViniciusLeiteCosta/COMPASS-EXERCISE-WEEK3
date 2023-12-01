@@ -16,7 +16,7 @@ html {
 }
 
 #account-options {
-    width: 413px;
+    width: 406px;
     height: 52px;
     border: none;
 }
@@ -40,8 +40,7 @@ html {
 }
 
 select{
-    padding-left: 10px;
-    appearance: unset;
+    outline: none;
 }
 
 h2 {
@@ -62,11 +61,11 @@ input{
     width: 26px;
     height: 26px;
     border-radius: 5px;
-    background-color: #3EB25E;
+    background-color: #3eb05c4b;
 }
 
 input[type="checkbox"]:checked{
-    background-color: #3eb05c4b;
+    background-color: #3EB25E;
 }
 
 .checkbox {
