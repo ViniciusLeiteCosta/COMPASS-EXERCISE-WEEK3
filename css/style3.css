@@ -139,7 +139,6 @@ select{
 a {
     text-decoration: none;
 
-    /*Typograph*/
     color: #FFF;
     text-align: center;
     font-family: 'Roboto';
@@ -155,7 +154,7 @@ a {
     justify-content: center;
     background: #3EB25E;
 
-    /*Layout*/
+
     width: 199px;
     height: 35.554px;
     transition: 1s;
