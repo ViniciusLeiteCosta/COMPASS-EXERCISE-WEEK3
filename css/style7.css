@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+}
+
+html {
+    font-family: "Roboto";
+}
+
+#hero-section {
+    display: inline-flex;
+    padding: 51px 84px 48px 212px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 80px;
+}
+
+h1 {
+     /*Typograph*/
+    color: #3EB25E;
+    font-family: "Roboto";
+    font-size: 111px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
