@@ -25,10 +25,6 @@ html {
     padding-left: 105.29px;
 }
 
-.wrapper {
-    width: 400px;
-}
-
 .custom-border {
     margin-bottom: 30px;
     border-radius: 20px;
@@ -40,6 +36,7 @@ html {
 }
 
 select{
+    
     outline: none;
 }
 
